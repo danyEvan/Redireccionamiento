@@ -1,0 +1,27 @@
+body{
+    
+    background-color: rgba(207, 86, 228, 0.87);
+    font-family: "DS-Digital";
+}
+.nombre{
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+.negro{
+    background-color: rgb(39, 38, 38);
+}
+.fondoP{
+    background-image:url(../img/plastico2.jpg) ;
+}
+.redondeado{
+    border-radius: 1.2rem;
+    box-shadow:21px 16px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
+@font-face{
+    font-family: "DS-Digital";
+    src: url("../fuentes/DS-DIGIB.TTF");
+    font-weight: bold;
+  }
