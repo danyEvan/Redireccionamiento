@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="./js/script-cook.js"></script> 
     <title> Confirmacion</title>
 </head>
-<body>
+<body onload="rememberTheme()">
 <div class="container-fluid d-flex align-items-center justify-content-center mt-5" style="height: auto; width: 100%; ;">
 
-    
-        <div id="caja" class="container d-flex row p-4 " style="height: auto; width: auto;">
+        
+        <div id="caja" class="container d-flex row p-3 "   style="height: auto; width: auto;">
             
-                <div class="contenedor bg-white p-5 text-center">
+                <div class="contenedor p-4 text-center">
                     <h1 class="col-sm-12 pb-5">Importante!</h1>
-                    <p>Averigue cuando sera el mejor momento para iniciar algo</p>
-                   <div class="col-sm-12 text-center p-2">
-                      <a  onclick="confirmar()" class="btn btn-primary">Ver mas</a>
+                    <p id="saludo">Averigue cuando sera el mejor momento para iniciar algo</p>
+                   <div class="col-sm-12 text-center p-4">
+                      <a id="enlace" onclick="confirmar()" class="btn">Ver mas</a>
                    </div> 
-                    
+                    <div class="col-sm-12 pt-4">
+                        <button id="theme" onclick="changeTheme();" class="btn"><i class="fas fa-toggle-off fa-2x"></i></button>  
+                    </div>
                 </div>
-                
-           
-           
-        </div>
+        </div >
            
         
     

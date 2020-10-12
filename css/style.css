@@ -1,3 +1,47 @@
 body{
     background-color: #eee;
+    color: black;
+    
 }
+
+#caja{
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+#enlace{
+    background-color: rgb(39, 126, 240);
+    color: #fff;
+}
+
+/**/
+
+#enlace:hover{
+    transition: 0.5s;
+    opacity: 0.85;
+}
+
+#theme{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*COLOR BOTON ENLACE DARK
+background-color: rgb(134, 100, 246);
+
+COLOR BOTON ENLACE LIGHT
+background-color: rgb(39, 126, 240);
+
+COLOR CAJA DARK
+background-color: rgb(41, 40, 42);
+
+COLOR CAJA LIGHT
+background-color: #fff;
+
+COLOR DARK
+background-color: black;
+
+COLOR LIGHT
+background-color: #eee;
+color: #fff;
+*/
